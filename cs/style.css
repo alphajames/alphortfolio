@@ -4,35 +4,72 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  text-align: center !important;
   font-family: 'Roboto Mono', monospace !important;
   letter-spacing: 2px;
-}
-h1{
-  font-size: 5.5rem !important;
-  color: white !important;
-  text-shadow: 8px 7px grey;
 }
 p{
   color: grey !important;
 }
-h2{
+a, li, h2{
   font-family: 'Montserrat',sans-serif !important;
-  font-weight: 700 !important;
+}
+/* font size */
+.xl-heading{
+  font-size: 5.5rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+}
+.medium-heading{
+  font-size: 2rem !important;
+}
+.small-heading{
+  font-size: 1.5rem;
+}
+.xsmall-heading{
+  font-size: 1.2rem;
+}
+.font-shadow{
+  text-shadow: 8px 7px grey;
+}
+/* fonts weight */
+.font-700{
+  font-weight: 700;
+}
+.font-900{
+  font-weight: 900;
+}
+/* colors */
+.bg-black{
+  background-color: black;
+}
+.bg-white{
+  background-color: white;
+}
+.font-white{
+  color: white;
+}
+.font-black{
+  color: black;
+}
+.font-grey{
+  color: grey !important;
+}
+/* line height */
+.line-height{
+  line-height: 2.5;
+}
+/* container padding */
+.container-padding{
+  padding: 5% 15%;
 }
 /* HEADING CONTENT */
 #heading-section{
-  background-color: #010101;
-  padding: 5% 15%;
+  text-align: left;
 }
 .col-lg-6{
   padding-bottom: 18px;
-}
-.navbar-brand{
-  font-family: 'Montserrat',sans-serif;
-  font-weight: 700;
-  font-size: 2rem!important;
-  letter-spacing: 5px;
-  color: grey !important;
 }
 .navbar{
   padding: 0px 0px 80px 0px !important;
@@ -42,39 +79,12 @@ h2{
   margin-left: 190px;
 }
 .nav-item{
-  font-family: 'Montserrat',sans-serif;
   padding: 0px 18px 18px 18px;
-  font-weight:700;
 }
-/* ABOUT */
-#about{
-  padding: 5% 15%;
-  text-align: center;
-  line-height: 2.;
-}
-.about-tag{
-  padding: 5%;
-}
-.icon{
-  margin: 1rem;
-  padding-bottom: 10px;
-}
+
 /* showcase */
-#showcase{
-  background-color: black;
-  color: white;
-  padding: 5% 15%;
-  line-height: 2.5;
-}
-.showcase-heading1{
-  font-family: 'Montserrat',sans-serif !important;
-  font-weight: 900 !important;
-  letter-spacing: 2px;
-  padding: 10px 0px 30px 0px;
-}
-.showcase-heading2{
-  font-family: 'Montserrat',sans-serif !important;
-  font-weight: 900 !important;
+
+.showcase-heading{
   letter-spacing: 2px;
   padding: 10px 0px 30px 0px;
 }
@@ -88,29 +98,13 @@ h2{
   height: 425px;
   box-shadow: 10px 10px 5px grey;
 }
-/* showcase 2 */
-#showcase-2{
-  padding: 5% 15%;
-  line-height: 2.5;
-}
 /* cta */
-#cta{
-  padding: 5% 15%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-.cta-heading{
-  padding-bottom: 30px;
-  font-size: 3.5rem;
+.cta-button{
+  margin-top: 30px;
 }
 /* footer */
-#footer{
-  padding: 5% 15%;
-  text-align: center;
-}
+
 .footer-icon{
-  color: black;
   padding: 20px 20px 30px 0px;
 }
 
@@ -124,7 +118,7 @@ h2{
 .description-tag1:hover{
   color: white !important;
 }
-h1:hover{
+.font-shadow:hover{
   color: grey !important;
   text-shadow: 8px 7px white;
 }
@@ -143,12 +137,6 @@ h1:hover{
 /* media queries */
 @media (max-width:1020px){
   #heading-section{
-    text-align: center;
-  }
-  #showcase{
-    text-align: center;
-  }
-  #showcase-2{
     text-align: center;
   }
   .showcase-img2{
