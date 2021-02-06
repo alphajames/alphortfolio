@@ -42,16 +42,16 @@ a, li, h2{
 }
 /* colors */
 .bg-black{
-  background-color: black;
+  background-color: #18191b;
 }
 .bg-white{
-  background-color: white;
+  background-color:#c7c8ca;
 }
 .font-white{
-  color: white;
+  color: #e3e4e8;
 }
 .font-black{
-  color: black;
+  color: #18191b;
 }
 .font-grey{
   color: grey !important;
@@ -81,7 +81,9 @@ a, li, h2{
 .nav-item{
   padding: 0px 18px 18px 18px;
 }
-
+.icon{
+  padding: 0px 0px 15px 0px;
+}
 /* showcase */
 
 .showcase-heading{
