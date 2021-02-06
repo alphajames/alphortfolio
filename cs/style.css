@@ -89,8 +89,8 @@ a, li, h2{
 .showcase-heading{
   letter-spacing: 2.5px;
 }
-.showcase-heading-2{
-  padding: 20px 20px 30px 20px;
+.showcase-padding{
+  padding: 20px 10px 30px 10px;
 }
 .showcase-img1{
   width: 60%;
